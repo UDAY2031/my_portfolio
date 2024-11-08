@@ -484,17 +484,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   background: linear-gradient(90.21deg, #282F3F -5.91%, #111828 50%, #060910 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
-
   padding: 60px 0 200px 0;
 }
+
 .contact img {
   width: 92%;
+  margin-top: 20px;  /* Adjust this value to move the icon lower */
 }
+
 .contact h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
   margin-bottom: 30px;
 }
+
 .contact form input, .contact form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
@@ -508,19 +511,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
 }
+
 .contact form input:focus, .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
   color: #121212;
 }
+
 .contact form input::placeholder, .contact form textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
 }
+
 .contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
   color: #121212;
   opacity: 0.8;
 }
+
 .contact form button {
   font-weight: 700;
   color: #000;
@@ -532,13 +539,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   transition: 0.3s ease-in-out;
 }
+
 .contact form button span {
   z-index: 1;
   position: relative;
 }
+
 .contact form button:hover {
   color: #fff;
 }
+
 .contact form button::before {
   content: "";
   background: #121212;
@@ -550,9 +560,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 0;
   transition: 0.3s ease-in-out;
 }
+
 .contact form button:hover::before {
   width: 100%;
 }
+
 
 /************ Footer Css ************/
 .footer {
@@ -562,6 +574,47 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
+/* Space between social icons and CV download button */
+.social-space {
+  margin-bottom: 20px; /* Adjust space as needed */
+}
+
+/* Style for CV download button */
+.cv-btn {
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 30px; /* Rounded corners for a smooth effect */
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%); /* Cool gradient background */
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+/* Hover effect for CV download button */
+.cv-btn:hover {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%); /* Reversed gradient */
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+/* Text styling for the footer */
+footer p {
+  color: #888;  /* Lighter color for copyright */
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* Ensure the button is centered */
+.cv-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .newsletter-bx {
   background: linear-gradient(90.21deg, #AEB4C1 -5.91%, #C1C8D3 50%, #D8DDE5 111.58%);
   border: 1px solid rgba(0, 0, 0, 0.3);
