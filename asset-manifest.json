@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.09ab2a37.css",
-    "main.js": "/my_portfolio/static/js/main.19b5feec.js",
+    "main.css": "/my_portfolio/static/css/main.5cd1fbad.css",
+    "main.js": "/my_portfolio/static/js/main.d43b01c4.js",
     "static/js/453.4462c1e9.chunk.js": "/my_portfolio/static/js/453.4462c1e9.chunk.js",
     "static/media/project-img1.png": "/my_portfolio/static/media/project-img1.2de390a6ffaf5fac6d6b.png",
     "static/media/profile.png": "/my_portfolio/static/media/profile.d5e430499764e3586431.png",
+    "static/media/project-img2.png": "/my_portfolio/static/media/project-img2.3cf9592e81d87d72f6ea.png",
     "static/media/color-sharp2.png": "/my_portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/contact-img.svg": "/my_portfolio/static/media/contact-img.90dbf8dbcc509a028d50549a0a2252a7.svg",
     "static/media/UdayKumarCV.pdf": "/my_portfolio/static/media/UdayKumarCV.4c412a1f69e4afadd9b1.pdf",
@@ -23,12 +24,12 @@
     "index.html": "/my_portfolio/index.html",
     "static/media/nav-icon2.svg": "/my_portfolio/static/media/nav-icon2.c671a2e51d4a5948a4010ed64e8a314c.svg",
     "static/media/nav-icon1.svg": "/my_portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.09ab2a37.css.map": "/my_portfolio/static/css/main.09ab2a37.css.map",
-    "main.19b5feec.js.map": "/my_portfolio/static/js/main.19b5feec.js.map",
+    "main.5cd1fbad.css.map": "/my_portfolio/static/css/main.5cd1fbad.css.map",
+    "main.d43b01c4.js.map": "/my_portfolio/static/js/main.d43b01c4.js.map",
     "453.4462c1e9.chunk.js.map": "/my_portfolio/static/js/453.4462c1e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09ab2a37.css",
-    "static/js/main.19b5feec.js"
+    "static/css/main.5cd1fbad.css",
+    "static/js/main.d43b01c4.js"
   ]
 }
